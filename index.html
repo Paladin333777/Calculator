@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="calculator">
-        <div id="screen">
-            <input type="number"/>
+    <div class="calculator">
+        <div class="screen">
+            <div id="inputScreen"><span id="firstVal"></span> <span id="operator"></span> <span id="secondVal"></span></div>
+            <div class="display"></div>
         </div>
-        <div id="main">
-            <button class="main_but" id="clear">AC</button>
-            <button class="main_but" id="delete">C</button>
-            <button class="main_but" id="equal">=</button>
+        <div class="main">
+            <button id="clear" data-key="clear">AC</button>
+            <button id="delete" data-key="delete">Del</button>
         </div>
-        <div id="buttons">
-            <button >1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button>
-            <button>.</button>
-            <button>0</button>
-            <button>/</button>
-            <button>x^</button>
+        <div class="buttons">
+            <button class="key" data-key="1">1</button>
+            <button class="key" data-key="2">2</button>
+            <button class="key" data-key="2">3</button>
+            <button class="oper" data-key="+" >+</button>
+            <button class="key" data-key="4">4</button>
+            <button class="key" data-key="5">5</button>
+            <button class="key" data-key="6">6</button>
+            <button class="oper" data-key="-">-</button>
+            <button class="key" data-key="7">7</button>
+            <button class="key" data-key="8">8</button>
+            <button class="key" data-key="9">9</button>
+            <button class="oper" data-key="*">*</button>
+            <button class="key" data-key=".">.</button>
+            <button class="key" data-key="0">0</button>
+            <button class="oper" data-key="/" >/</button>
+            <button id="equal" data-key="=">=</button>
         </div>
     </div>
     <script src="script.js"></script>

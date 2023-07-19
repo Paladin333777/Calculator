@@ -11,14 +11,33 @@ button {
     height: 60px;
 }
 
-#screen {
-    height: 80px;
+.screen {
+    height: 70px;
+    background-color: #36454F;
+    border-radius: 10px;
+    margin: 6px;
+    flex-wrap: wrap;
+    max-width: 268px;
 }
 
-#main {
-    margin: auto;
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+    color: white;
+    font-size: 30px;
+    align-items: flex-end;
+    font-weight: bold;
+    flex-wrap: wrap;
+    max-width: 268px;
+}
+
+
+.main {
+    justify-content: center;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     display: flex;
     gap: 10px;
 }
@@ -27,14 +46,14 @@ button {
     width: 80px;
 }
 
-#buttons {
+.buttons {
     display: flex;
-    margin: auto;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
 }
 
-#calculator {
+.calculator {
     display: flex;
     border-radius: 10px;
     flex: auto;
@@ -45,5 +64,5 @@ button {
     width: 280px;
     height: 420px;
     margin-top: 100px;
-    background-color: bisque;
+    background-color: #36454F;
 }
